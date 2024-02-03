@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="" id="n1">
+    <input type="button" name="" id="oe" value="click" onclick="oddeven()">
+
+    <p id="result" style="color: red;"></p>
+    
+    
+<script>
+// var name=prompt("Enter a name");
+// var gender=prompt("Enter a gender");
+// if(gender=="male"){
+// document.write("your name is MR:"+name);
+// }
+// else if(gender=="female") {
+// document.write("your name is Ms:"+name );
+// }
+// else{
+// document.write("wrong input")
+// }
+
+function oddeven(){
+    var num1=document.getElementById("n1").value;
+
+   
+    if(num1%2==0){
+        document.getElementById("result").innerHTML="even number";
+    }
+    else{
+        document.getElementById("result").innerHTML="Odd number";
+    }
+}
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display:inline-block;
+    margin: 30px;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.reverse{
+    padding: 30px;
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    box-sizing: content-box;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.btn{
+    background-color: tomato;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+p{
+    padding: 10px;
+}
+
+h4{
+    text-align: center;
+}
+button{
+    padding:5px;
+}
+
+.clock{
+    background-color: #000;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.clock h1{
+    text-align: center;
+    color: #17D4FE;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+
+}

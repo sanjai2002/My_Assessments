@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    
+   <div class="container">
+    <h3>Enter the Date</h3>
+    <input type="text" id="date" placeholder="yyyy-mm-dd">
+    <br>
+    <br>
+    <input type="button"  id="button" value="submit" onclick="date()">
+    <input type="button" id="clear"value="cleardata" onclick="myclear()">
+    
+    <p id="result"></p>
+
+   </div>
+
+
+   <div class="box">
+            <input type="text" id="name">
+            <br>
+            <input type="radio" id="male" name="gender" value="male">male
+            <input type="radio" name="gender" id="female" value="female">female
+            <br>
+            <!-- <button id="button" onclick="gender()">submit</button> -->
+            <input type="button" onclick="gender()" value="submit">
+            <h2 id="output"></h2>
+
+   </div>
+</body>
+</html>

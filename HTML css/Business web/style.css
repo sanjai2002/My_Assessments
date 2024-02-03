@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+
+}
+
+.nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2% 6%;
+   
+}
+.nav img{
+    width:80px;
+}
+.navlinks ul li{
+    margin-top:15px;
+    display: inline-block;
+    list-style: none;
+    padding: 2px 30px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+    background:linear-gradient(rgba(47, 47, 47, 0.7),rgba(68, 68, 68, 0.7)),url(images/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.headercontent{
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.headercontent h1{
+
+    color: white;
+    font-size:33px;
+    padding: 20px;
+}
+.headercontent h4{
+    color:white;
+    font-weight: lighter;
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 50PX;
+}
+.button{
+    background-color: rgb(251, 201, 51);
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 8PX;
+}
+
+.column{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.column1{
+    flex-basis: 31%;
+    box-sizing: border-box;
+}
+.column1 h1{
+    padding: 5px;
+    letter-spacing:2px;
+}
+
+.column1 p{
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding:10px;
+
+
+}
+.column1 a{
+    text-decoration: none;
+    color: rgb(251, 201, 51);
+}
+
+
+.service{
+    background-color: rgb(231, 229, 229);
+    padding-top: 50px;
+    text-align: center;
+    min-height:110vh;
+
+}
+
+.service p{
+    padding: 30px;
+    line-height: 25px;
+    
+}
+
+.service1{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.servicecol{
+    flex-basis:44%;
+    box-sizing: border-box;
+}
+.servicecol img{
+    width:100%;
+    padding: 20px;
+}
+.servicecol p{
+    text-align: center;
+}
+.service1 a{
+    text-decoration: none;
+    color: rgb(251, 201, 51);
+    padding-bottom: 20px;
+    
+}
+
+.simple{
+    padding-top:100px;
+    width: 80%;
+    min-height: 60vh;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.simple1{
+    padding: 50px;
+   flex-basis: 50%;
+   box-sizing: border-box;
+}
+.simple1 img{
+    width:100%; 
+
+}
+.simple1 h1{
+    padding: 20px;
+}
+.simple1 p{
+    padding:0 20px 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.simple a{
+    text-decoration: none;
+    color: rgb(251, 201, 51);
+    padding:50px 20px ;
+
+    
+}
+.girlimage{
+    background-color:rgb(231, 229, 229);
+    
+    
+}
+.girl{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    
+}
+.girl1 img{
+    padding:40px;
+    width: 500px;
+
+}
+.girl2 img{
+
+    border-radius: 50%;
+    width: 30%;
+
+}
+.girl2{
+    margin-left:5%;
+    margin-top: 50px;
+    text-align: center;
+    width: 40%;
+
+}
+.girl2 p{
+    margin-top: 10px;
+    border-top: 3px solid rgb(251, 201, 51) ;
+    border-bottom: 3px solid rgb(251, 201, 51) ;
+    padding: 30px;
+}
+
+.socialmedia{
+    width: 80%;
+    margin: auto;
+    padding-top:50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.socialmedia img{
+    width: 80%;
+}
+.div{
+    width: 60%;
+    padding: 30px;
+}
+.fa-solid,.fa-brands{
+    color: rgb(251, 201, 51);
+    font-size: 40px;
+}
+.div p,h1{
+    padding: 10px;
+    line-height:25px;
+}

@@ -1,0 +1,15 @@
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+
+    .service1{
+        flex-direction: column;
+    
+    }
+    .girlimage{
+        flex-direction: column;
+
+    }
+}
+

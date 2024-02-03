@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -2px;
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+.black{
+    background-color: black;
+    display: inline-block;
+    color: white;
+   
+}
+
+.main{
+    position:relative;
+    left:30%;
+    top: 50px;
+}

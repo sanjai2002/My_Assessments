@@ -1,0 +1,29 @@
+
+.container{
+    background-color: tomato;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+
+}
+p{
+    padding: 10px;
+}
+
+input[type=button]{
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box{
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+input{
+    margin: 10px;
+}

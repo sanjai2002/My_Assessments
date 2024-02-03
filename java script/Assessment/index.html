@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="startTime()">
+<div class="container">
+
+    
+ <!--String reverse-->
+ <div class="reverse">
+    <h5>Enter the Two String</h5>
+    <br>
+    <input type="text" id="name1">
+<br>
+<br>
+
+<input type="text" id="name2">
+<br>
+<input type="button" value="submit"  onclick="names()" class="btn">
+<p id="ans1"></p>
+<p id="ans2"></p>
+<p id="ans3"></p>
+<p id="ans4"></p>
+</div>
+
+
+<!-- square root-->
+<div class="reverse">
+    <h4>Squareroot </h4>
+    <input type="number" id="num">
+    <input type="button" value="Click" onclick="square()" class="btn">
+    <h2 id="ans"></h2>
+
+</div>
+<!--Guess the number-->
+
+<div class="reverse">
+    <h4>Guess the number</h4>
+    <h3>Enter a number</h3>
+    <input type="number" id="guessnumber">
+    <input type="button" value="click me" onclick="guess()" class="btn">
+    <h2 id="guessans"></h2>
+</div>
+<!--9.Find the number of days between two years.-->
+<div class="reverse">
+    <h4>between two years.</h4>
+    <input type="text" id="year1">
+    <input type="text" id="year2">
+    <input type="button" value="click me" onclick="findyear()" class="btn">
+    <h2 id="yearans"></h2>
+</div>
+
+<div class="reverse">
+    <h4>Math E function</h4>
+    <input type="number" id="math">
+    <input type="button" value="click me" onclick="mathexp()" class="btn">
+    <h2 id="mathans"></h2>
+    
+</div>
+
+<div class="reverse">
+ <h4>Onblur and Onfocus the image</h4>
+ <img id="images" width="150px">
+ <input type="button" value="click me" class="btn"  onblur="blurimg()" onfocus="focusimg()">
+ 
+</div>
+
+<div class="reverse" >
+    <h4>Digital Clock</h4>
+    <div class="clock">
+        <h1 id="times"></h1>
+    </div>
+</div>
+
+<!--5.Using switch case find the day by getting date and year from the user.-->
+    <div class="reverse">
+            <input type="text" placeholder="yyyy/mm/dd" id="Date">
+            <input type="button" value="click me" class="btn" onclick="findday()">
+            <h3 id="days"></h3>
+
+
+
+    </div>
+
+</div>
+
+
+   
+
+
+
+
+</body>
+</html>
